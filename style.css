@@ -1,0 +1,231 @@
+.topBlueBG {
+    height: 700px;
+    background-image: linear-gradient(
+0deg,#3644a1,#001289);
+}
+
+
+.heading {
+    /*  */
+    font-family: "NotoSans",sans-serif;
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: -1.08px;
+    justify-content: center;
+    color: #fff;
+}
+
+.col{
+    display: flex;
+}
+
+
+.heading {
+    /*  */
+    font-family: "NotoSans",sans-serif;
+    font-size: 36px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: -1.08px;
+    justify-content: center;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    /* justify-content: center; */
+    width: 234px;
+    height: 59.6px;
+    padding: 17.8px 15px 19.8px;
+    border-radius: 50px;
+    background-color: #f47920;
+
+    text-align: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+.row {
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+} 
+
+.spa {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(0,0,0,.2);
+    border-radius: 100%;
+    margin: 0 23.3px 0 0;
+    padding: 5px 2.9px 5px 3.6px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.buldresume {
+    width: 1234px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 26px 0 30px 30px;
+    border-radius: 24px;
+    box-shadow: 32px 36px 100px 0 rgb(0 0 0 / 8%);
+    background-color: #fff;
+}
+
+.stanoutresume {
+    height: 93px;
+    margin: 0 50px 0 2px;
+    font-family: "NotoSans",sans-serif;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: #0b132a;
+}
+.buldresumetoday{
+    font-size: 40px;
+    padding: 0;
+    font-weight: 700;
+}
+
+.text{
+  /*  */
+    font-family: "NotoSans",sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+    color: #1e266d;
+    margin-top: 200px;
+}
+
+.slick-slider{
+    position: relative;
+    display: flex;
+    justify-content: flex;
+}
+
+
+/*  */
+
+.slick-slide img {
+    display: inline;
+    text-align: end;
+}
+
+.ResumebuilderTemp {
+    width: auto;
+    height: auto;
+    box-shadow: 4px 4px 28px 10px rgb(0 0 0 / 80%);
+}
+
+
+element.style {
+}
+.BlueBg, .footer {
+    background-color: #2e3a97;
+    z-index: -1;
+    height: auto;
+}
+.footer {
+    margin-top: 0;
+}
+.row {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.foot{
+   padding-top: 20rem;
+}
+
+
+
+.testimonial-section{
+    background-color: #ffffff;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+.testi-img .img-box{
+    max-width: 360px;
+    margin:auto;
+    text-align: center;
+    position: relative;
+}
+.testi-img .circle{
+    height: 360px;
+    width: 360px;
+    background-color: #fb9c9a;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.testi-img .img-box-inner{
+    position: relative;
+    border-radius: 0 0 180px 180px;
+    overflow:hidden;
+}
+.testi-img .img-box-inner img{
+    max-width: 910px;
+}
+.testimonial-section .carousel-inner{
+    margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-prev{
+    margin-right: 10px;
+}
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #fb9c9a;   
+    display: inline-flex;
+    border-radius: 50%;
+}
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img{
+    width: 15px;
+}
+.testi-item h3,
+.testi-item p{
+    font-size: 18px;
+}
+.testi-item h3{
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media(max-width:991px){
+    .testi-img .img-box{
+        max-width: 300px;
+    }
+    .testi-img .circle{
+        height: 300px;
+        width: 300px;
+    }
+    .testi-img .img-box-inner{
+        border-radius: 0 0 150px 150px;
+    }
+    .testi-img .img-box-inner img{
+        max-width: 230px;
+    }
+}
+@media(max-width:767px){
+    .testi-img{
+        margin-bottom: 25px;
+    }
+}
